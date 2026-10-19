@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jose Murphy is an aerospace engineering student focused on structural analysis, mechanical design, and flight hardware.">
+  <title>Jose Murphy | Aerospace Engineering</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Jose Murphy home"><span>JM</span><b>Jose Murphy</b></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#approach">Approach</a><a href="#about">About</a><a class="nav-cta" href="mailto:joseantoniomurphy@icloud.com">Get in touch <span>↗</span></a>
+    </nav>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal-dot"></span> Aerospace engineering / Astronautics</p>
+        <h1>I build hardware<br><em>that earns its flight.</em></h1>
+        <p class="hero-lede">I’m Jose Murphy, an aerospace engineering student at Embry-Riddle focused on structural analysis, mechanical design, and the work between a load case and a real vehicle.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">View selected work <span>↓</span></a><a class="text-link" href="assets/Jose-Murphy-Resume.pdf" target="_blank">Download résumé <span>↗</span></a></div>
+      </div>
+      <div class="hero-visual" aria-label="Minerva weather balloon launch photograph">
+        <div class="hero-image-wrap"><img src="assets/minerva-launch.jpeg" alt="A weather balloon launch at the edge of a field"></div>
+        <div class="hero-caption"><span>01 / 03</span><span>Minerva platform launch</span></div>
+      </div>
+      <div class="hero-index">DAYTONA BEACH, FL<br>ERHAE · 2028</div>
+    </section>
+
+    <section class="statement section-grid" id="approach">
+      <div class="section-label">01 — Approach</div>
+      <div class="statement-body"><p class="display-text">From <span>analysis</span> to<br><span>manufacturing</span> to<br><span>flight test.</span></p><p class="body-copy">The best engineering work survives contact with the real world. I like the full loop: understand the loads, make the model, build the part, and learn from what the hardware tells you.</p></div>
+      <div class="statement-aside">CURRENTLY<br><strong>Mechanical Engineer</strong><br>Space Technologies Laboratory</div>
+    </section>
+
+    <section class="work section-grid" id="work">
+      <div class="section-label">02 — Selected work</div>
+      <div class="work-intro"><h2>Projects with<br><em>something at stake.</em></h2><p class="body-copy">A selection of student-led aerospace projects, engineering analysis, and research.</p></div>
+
+      <article class="project project-featured reveal">
+        <div class="project-meta"><span>01 / 03</span><span>2024 — Present</span></div>
+        <div class="project-title"><h3>Minerva</h3><p>Weather balloon / CubeSat research platform</p></div>
+        <div class="project-image"><img src="assets/minerva-gsru.jpeg" alt="The Minerva ground station receiving unit in a workshop"><span class="image-tag">Mechanical team lead</span></div>
+        <div class="project-details"><p class="project-kicker">A modular testbed for CubeSat payloads</p><p class="body-copy">I lead a 10-person mechanical team building a high-altitude platform for rapid payload testing. My work spans a 1U payload shell, the Ground Station Receiving Unit, engineering drawings, integration, and flight campaigns.</p><div class="metric-row"><div><strong>80 g</strong><span>current shell mass</span></div><div><strong>35 km</strong><span>design altitude</span></div><div><strong>1U → 3U</strong><span>scalable architecture</span></div></div><a class="text-link" href="#minerva-detail">Explore project <span>↓</span></a></div>
+      </article>
+
+      <article class="project project-split reveal">
+        <div class="project-meta"><span>02 / 03</span><span>2025 — 2026</span></div>
+        <div class="project-title"><h3>Zephyr</h3><p>Supersonic sounding rocket</p></div>
+        <div class="project-image"><img src="assets/zephyr-cad.png" alt="CAD view of the Zephyr sounding rocket"><span class="image-tag">Structures & composites</span></div>
+        <div class="project-details"><p class="project-kicker">Analysis that changed the design</p><p class="body-copy">I built MATLAB section-analysis tools for combined aerodynamic, propulsion, and inertial loading, then used the results to guide a fin redesign and CNC-machined bulkhead design.</p><div class="tool-list"><span>MATLAB</span><span>FEMAP</span><span>CNC</span><span>Composites</span></div><a class="text-link" href="#zephyr-detail">Explore project <span>↓</span></a></div>
+      </article>
+
+      <article class="project project-split project-research reveal">
+        <div class="project-meta"><span>03 / 03</span><span>2024 — 2025</span></div>
+        <div class="project-title"><h3>Research</h3><p>Computation for extreme environments</p></div>
+        <div class="project-image"><img src="assets/research-flutter-1.jpeg" alt="Flutter simulation plots showing decaying oscillations"><span class="image-tag">MATLAB / numerical methods</span></div>
+        <div class="project-details"><p class="project-kicker">Making complex physics legible</p><p class="body-copy">From modeling the gravitational field of M87* to a 2-DOF aeroelastic flutter simulation, I use computation to connect governing equations with physical behavior.</p><div class="tool-list"><span>State space</span><span>Eigenvalues</span><span>Vector calculus</span></div><a class="text-link" href="#research-detail">Explore project <span>↓</span></a></div>
+      </article>
+    </section>
+
+    <section class="detail-section" id="minerva-detail"><div class="section-grid detail-grid"><div class="section-label">Minerva / 01</div><div class="detail-copy"><p class="eyebrow">Role / Mechanical team lead</p><h2>Designing the ground segment and the payload shell.</h2><p class="body-copy">Minerva is a reusable, low-cost platform for testing CubeSat payloads before orbital launch. I designed the Ground Station Receiving Unit from concept through PDR, integrating antennas, radios, sensors, and electronics into a mission-tested communications device.</p><div class="detail-columns"><div><span class="mini-label">Design work</span><p>CATIA V5 · Fusion 360 · Inventor<br>GD&T · rapid prototyping · PDR</p></div><div><span class="mini-label">Verification</span><p>Thermal analysis at −36.1°C<br>Static structural analysis · telemetry</p></div></div></div><div class="detail-gallery"><img src="assets/minerva-gsru-layout.jpg" alt="Ground station receiving unit CAD layout"><img src="assets/minerva-thermal.png" alt="Thermal simulation of Minerva payload electronics"></div></div></section>
+
+    <section class="detail-section detail-dark" id="zephyr-detail"><div class="section-grid detail-grid"><div class="section-label">Zephyr / 02</div><div class="detail-copy"><p class="eyebrow">Role / Structures and composites analyst</p><h2>Closing the gap between equations and the shop floor.</h2><p class="body-copy">For a Mach 1.2 sounding rocket, I modeled shear, normal, and von Mises stresses under combined loading. Sensitivity studies informed a fin redesign and center-of-pressure shift. I then supported CNC machining and composite fabrication for the hardware those calculations described.</p><div class="stat-callout"><strong>60%</strong><span>reduction in manual evaluation time through MATLAB section-analysis tools</span></div></div><div class="detail-gallery"><img src="assets/zephyr-analysis-1.jpeg" alt="Zephyr structural analysis plot"><img src="assets/zephyr-manufacturing.jpeg" alt="Composite manufacturing work"></div></div></section>
+
+    <section class="detail-section" id="research-detail"><div class="section-grid detail-grid"><div class="section-label">Research / 03</div><div class="detail-copy"><p class="eyebrow">Role / Researcher and presenter</p><h2>Turning models into decisions.</h2><p class="body-copy">I built and presented computational models for gravitational fields and aeroelastic flutter. The work sharpened how I translate coupled differential equations, mass and stiffness matrices, and eigenvalues into engineering conclusions that another person can inspect.</p><a class="text-link" href="mailto:joseantoniomurphy@icloud.com?subject=Research%20portfolio">Ask about the work <span>↗</span></a></div><div class="detail-gallery single-gallery"><img src="assets/research-m87-1.jpeg" alt="M87 star gravitational field visualization"></div></div></section>
+
+    <section class="about section-grid" id="about"><div class="section-label">03 — About</div><div class="about-copy"><h2>Aerospace engineer<br><em>in the making.</em></h2><p class="body-copy">I’m studying Aerospace Engineering on the Astronautics track at Embry-Riddle Aeronautical University, graduating in May 2028. I’m bilingual in English and Spanish, with roots in Mexico, and I’m interested in mechanical design and structural analysis for launch and space hardware.</p><div class="about-links"><a class="button button-dark" href="mailto:joseantoniomurphy@icloud.com">Start a conversation <span>↗</span></a><a class="text-link" href="https://www.linkedin.com/in/joseamurphy" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div></div><div class="about-facts"><div><span>Education</span><strong>B.S. Aerospace Engineering</strong><small>Embry-Riddle / May 2028 / 3.96 GPA</small></div><div><span>Tools</span><strong>CATIA · SolidWorks · Ansys</strong><small>MATLAB · FEMAP · GD&T · CNC</small></div><div><span>Based in</span><strong>Daytona Beach, Florida</strong><small>Available for aerospace internships</small></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-mark">JM</div><p>Jose Murphy<br><span>Structures & mechanical design</span></p><a href="mailto:joseantoniomurphy@icloud.com">joseantoniomurphy@icloud.com ↗</a><small>© 2026 Jose Murphy</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
